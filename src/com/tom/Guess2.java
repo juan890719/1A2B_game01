@@ -22,7 +22,7 @@ public class Guess2 {
 			nums[m] = nums[r];
 			nums[r] = tmp;
 		}
-		for(int i=0; i<10; i++) {
+		for(int i=0; i<4; i++) {
 			System.out.print(nums[i] + " ");
 		}
 	}
