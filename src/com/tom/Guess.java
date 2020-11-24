@@ -3,7 +3,6 @@ package com.tom;
 import java.util.Random;
 
 public class Guess {
-
 	public static void main(String[] args) {
 		String s ="0";
 		System.out.println((int)s.charAt(0));
