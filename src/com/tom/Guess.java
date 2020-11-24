@@ -6,8 +6,6 @@ public class Guess {
 	public static void main(String[] args) {
 		String s ="0";
 		System.out.println((int)s.charAt(0));
-		char m = 12;
-		System.out.println((int)m);
 		Random r = new Random();
 		char[] secret = new char[4];
 		for (int i=0; i<4; i++) {
