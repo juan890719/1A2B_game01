@@ -12,8 +12,8 @@ public class Poker {
 			if(i%13 == 0 && i != 0) {
 				System.out.println();
 			}
-			char flower = types[cards[i]/12];			
-			System.out.print(cards[i] + "" + flower + " ");
+			char flower = types[cards[i]/13];			
+			System.out.print(cards[i]%13+1 + "" + flower + " ");
 		}
 	}
 
